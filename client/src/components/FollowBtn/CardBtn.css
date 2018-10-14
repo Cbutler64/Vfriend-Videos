@@ -1,0 +1,45 @@
+.follow-btn {
+  
+  height: 50px;
+  width: 100px;
+  border-radius: 15px;
+  border: none;
+  bottom: 10%;
+  color: #FFF;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: FontAwesome;
+  outline: none;
+ 
+  
+}
+
+.follow {
+  margin-right: 90px;
+  background: rgb(0, 12, 82);
+}
+
+.follow::after {
+  content: " \f0a4";
+}
+
+
+
+.follow:hover::after {
+  animation: iconBounce .57s 1;
+}
+
+@keyframes iconBounce {
+  0% {
+    font-size: 24px;
+  }
+  
+   50% {
+    font-size: 28px;
+  }
+  
+  100% {
+    font-size: 24px;
+  }
+
+}

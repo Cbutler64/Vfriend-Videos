@@ -1,0 +1,46 @@
+.other-btn {
+  
+    height: 50px;
+    width: 100%;
+    border-radius: 15px;
+    border: none;
+    bottom: 10%;
+    color: #FFF;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: FontAwesome;
+    outline: none;
+   
+    
+  }
+  
+  
+  .other {
+    margin-right: 90px;
+    background: rgb(0, 12, 82);
+  }
+  
+  .other::after {
+    content: " \f0a4";
+  }
+  
+  
+  
+  .other:hover::after {
+    animation: iconBounce .57s 1;
+  }
+  
+  @keyframes iconBounce {
+    0% {
+      font-size: 24px;
+    }
+    
+     50% {
+      font-size: 28px;
+    }
+    
+    100% {
+      font-size: 24px;
+    }
+  
+  }

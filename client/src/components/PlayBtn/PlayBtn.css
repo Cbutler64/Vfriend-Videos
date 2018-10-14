@@ -1,0 +1,47 @@
+.play-btn {
+  
+  height: 50px;
+  width: 90px;
+  border: none;
+
+  position: relative;
+  left: 230px;
+  bottom: 210px;
+  border-radius: 15px;
+  color: #FFF;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: FontAwesome;
+  outline: none;
+
+}
+
+.pass {
+  
+  background: rgb(0, 12, 82);
+}
+
+.pass::after {
+  content: "\f150";
+}
+
+
+
+ .pass:hover::after {
+  animation: iconBounce .57s 1;
+}
+
+@keyframes iconBounce {
+  0% {
+    font-size: 24px;
+  }
+  
+   50% {
+    font-size: 28px;
+  }
+  
+  100% {
+    font-size: 24px;
+  }
+
+}

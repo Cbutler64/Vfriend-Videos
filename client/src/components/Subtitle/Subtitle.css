@@ -1,0 +1,10 @@
+.subtitle {
+    background-image: linear-gradient( rgb(5, 0, 70),rgb(30, 19, 190));
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    opacity: 0.9;
+    font-family: 'Frijole', cursive;
+    font-size: 25px;
+}

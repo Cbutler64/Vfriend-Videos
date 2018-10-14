@@ -1,0 +1,31 @@
+#profileCard {
+  background: #fff;
+  border-radius: 2px;
+  height: 350px;
+  margin: 1rem;
+  position: relative;
+  width: auto;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: left;
+}
+
+#profileCard > .img-container {
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background:rgb(68, 163, 226);
+}
+#profileCard > .img-container > img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+#profileCard > .content > ul {
+  list-style-type: none;
+}
+
+#profileCard > .content > ul > li {
+  margin-top: 18px;
+}

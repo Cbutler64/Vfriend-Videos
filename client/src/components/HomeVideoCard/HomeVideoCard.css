@@ -1,0 +1,37 @@
+#video {
+    background: #fff;
+    height: 280px;
+    margin: auto;
+    position: relative;
+    width: 325px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    align-items: center;
+    margin-bottom: 15px;
+    
+  }
+  
+  #video > .img-container {
+    height: 58%;
+    /* overflow: hidden; */
+    text-align: left;
+    background: rgb(32, 64, 102);
+  }
+
+  #video > .img-container > img {
+    width: 70%;
+    height: 100%;
+  }
+  
+  #video > .content {
+    text-align: center;
+    padding-right: 1rem;
+    font-size: 14px;
+  }
+  
+  #video > .content {
+    margin-top: 10px;
+  }
+  
+ 
+  
+ 

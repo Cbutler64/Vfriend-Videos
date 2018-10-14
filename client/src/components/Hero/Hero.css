@@ -1,0 +1,38 @@
+.hero {
+  height:auto;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  
+}
+
+h1 {
+  font-family: 'Frijole', cursive;
+  opacity: 0.8;
+}
+.hero::after {
+  content: "";
+  display: block;
+  opacity: .4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+}
+
+.hero * {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1, .hero h2 {
+  color: white;
+}
+
+.hero h1 {
+  font-size: 60px;
+  padding: 40px;
+  margin-top: 0;
+}

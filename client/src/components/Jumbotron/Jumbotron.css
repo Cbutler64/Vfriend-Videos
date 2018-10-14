@@ -1,0 +1,11 @@
+
+
+
+.jumbotron {
+    background-image: linear-gradient( rgb(5, 0, 70),rgb(205, 202, 243));
+    height: auto;
+    padding: 50px;
+    margin-top: 150px;
+    border-radius: 25px;
+    
+}

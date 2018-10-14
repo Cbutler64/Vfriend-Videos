@@ -1,0 +1,37 @@
+.card-video {
+    background: #fff;
+    height: 260px;
+    margin: auto;
+    position: relative;
+    width: 325px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    align-items: center;
+    margin-bottom: 15px;
+    
+  }
+  
+  .card-video > .img-container {
+    height: 70%;
+    overflow: hidden;
+    text-align: left;
+    background: rgb(32, 64, 102);
+  }
+
+  .card-video > .img-container > img {
+    width: 70%;
+    height: 100%;
+  }
+  
+  .card-video > .content {
+    text-align: center;
+    padding-right: 1rem;
+    font-size: 15px;
+  }
+  
+  .card-video > .content {
+    margin-top: 10px;
+  }
+  
+ 
+  
+ 

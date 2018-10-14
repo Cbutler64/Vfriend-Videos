@@ -1,0 +1,50 @@
+.save-btn {
+  
+  height: 50px;
+  width: 90px;
+  border-radius: 15px;
+  border: none;
+  color: #FFF;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: FontAwesome;
+  outline: none;
+  position: relative;
+  bottom: 140px;
+  left: 141px;
+  
+  
+}
+
+.save {
+  background: rgb(0, 12, 82);
+}
+
+.save::after {
+  content: " \f019";
+}
+
+
+
+.save::after {
+  content: " \f019";
+}
+
+.save:hover::after, .save:hover::after {
+  animation: iconBounce .57s 1;
+}
+
+@keyframes iconBounce {
+  0% {
+    font-size: 24px;
+  }
+  
+   50% {
+    font-size: 28px;
+  }
+  
+  100% {
+    font-size: 24px;
+  }
+
+}
