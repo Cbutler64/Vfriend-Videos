@@ -15,7 +15,7 @@ app.use(routes);
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://<dbuser>:<dbpassword>@ds131973.mlab.com:31973/heroku_mr0xp111" ||"mongodb://localhost/vFriendReactUsers"
+  process.env.MONGODB_URI || "mongodb://<dbuser>:<dbpassword>@ds131963.mlab.com:31963/heroku_mpd7kw39" ||"mongodb://localhost/vFriendReactUsers"
 );
 
 // Start the API server
